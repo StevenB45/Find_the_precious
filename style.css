@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'symboles';
+    src: url('fonts/symboles.ttf') format('ttf'),
+    url('fonts/symboles.woff') format('woff'),
+    url('fonts/symboles.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'partybusiness';
+    src: url('fonts/partybusiness.ttf') format('ttf'),
+    url('fonts/partybusiness.woff') format('woff'),
+    url('fonts/partybusiness.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'anicb';
+    src: url('fonts/anicb.ttf') format('ttf'),
+         url('fonts/anicb.woff') format('woff'),
+         url('fonts/anicb.woff2') format('woff2');
+}
+
+body{
+    background: url(images/_bg_light.png);
+    font-family: 'partybusiness';
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    font-family: 'anicb';
+}
+
+.navbar .nav > li > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.divider-vertical{
+    color: white;
+    padding-top: 10px;
+}
+
+/*CAROUSSEL*/
+
+#carousel-example-generic{
+    margin-top: -20px;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.carousel-caption h2{
+    font-size: 5.5vw;
+}
+
+.carousel-caption p{
+    font-size: 3vw;
+}
+
+/*TITRE + THUMBNAILS*/
+
+.fellows{
+    font-size: 2em;
+    font-family: "anicb";
+}
+
+.alive{
+    color: black
+}
+
+.symboleFirst{
+    font-family: "symboles";
+    font-size: 1.5em;
+    color:rgb(255, 115, 0);
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    background-color: transparent;
+    font-family: "anicb";
+    font-size: 1.5em;
+}
+
+.nav-pills {
+    text-align:center;
+}
+
+.nav-pills>li>a{
+    color: grey;
+}
+
+.nav-pills>li>a:hover{
+    color: rgb(255, 115, 0);
+    text-decoration-line: underline;
+    background: none;
+}
+
+.thumbnail{
+    background: url("images/_bg_dark.png");
+    width: 100%;
+}
+
+.caption >h3{
+    font-size: 2em;
+    color: grey;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron{
+    padding:15px;
+    color: white;
+    background:url("images/_bg_dark.png");
+    text-align: center;
+}
+
+.symboletwo{
+    font-family: symboles;
+    color:rgb(255, 115, 0);
+}
+
+.lorem{
+    text-align: justify;
+}
+
+.coin{
+    border-radius: 50%;
+}
+
+.contact{
+    background: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+    color: black;
+    font-size: 1.5em;
+}
+
+.contact:hover{
+    background: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+    color: black;
+    font-size: 1.5em;
+}
+
+/*MEDIA*/
+
+.scapture{
+    padding-left: 20px;
+}
+ 
+.hunter{
+    font-family: "anicb";
+    font-size:0.5em;
+}
+
+.symbolethree{
+    font-family: "symboles";
+    color: rgb(255, 115, 0);
+}
+.media-heading{
+    font-size: 2.5em;
+    color:rgb(255, 115, 0);
+}
+
+.buttonrace{
+    background-color:rgb(40, 41, 43);
+    border: none ;
+    color:rgb(255, 115, 0);
+    width: 100px;
+    height: 30px;
+    font-size:1.5em;
+
+}
+
+/*JUMBOTRON-2*/
+
+.panelfont{
+    background: url("images/_bg_dark.png")
+}
+
+.ring{
+    color:white;
+    font-size:0.5em;
+    font-family: "anicb";
+}
+
+.panel{
+    font-family: "anicb";
+    background: url("images/_bg_light.png")
+}
+
+.panel-default>.panel-heading{
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+.panel.panel-default{
+    margin-left: 5vw;
+    margin-right:5vw;
+}
+
+.sauron{
+    font-family: "partybusiness";
+    font-size:2em;
+}
+
+.lignes{
+    padding:0;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.titre{
+    font-size: 1.5em;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 95%;
+  }
+
+.precious{
+    font-family: "partybusiness";
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+}
