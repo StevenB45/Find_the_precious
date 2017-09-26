@@ -237,3 +237,28 @@ hr {
     text-align: center;
     padding-top: 50px;
 }
+
+/*WE NEED YOU*/
+
+.info{
+    font-family: "anicb";
+    font-size:1vw;
+    text-align: center;
+}
+
+.black{
+    font-size: 1.5vw;
+}
+
+.buttonneed{
+    font-family: "anicb", serif;
+    margin: auto 0;
+    text-align: center;
+}
+
+.buttonrule{
+    background-color: rgb(255, 115, 0);
+}
+
+
+
